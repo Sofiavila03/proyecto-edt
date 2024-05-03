@@ -1,16 +1,15 @@
+require('dotenv').config();
+const { MONGODB_URI } = process.env;
 const mongoose = require('mongoose');
 
 async function connectDB() {
-  try {
-    await mongoose.connect('mongodb://localhost:27017/melp_db', {
-      useNewUrlParser: true,
-      useUnifiedTopology: true
-    });
-    console.log('Conexión a MongoDB establecida');
-  } catch (error) {
-    console.error('Error al conectar a MongoDB:', error);
-    process.exit(1); 
-  }
+    try {
+        await mongoose.connect(MONGODB_URI);
+        console.log('DB is connected');
+    } catch (error) {
+        console.error('Error connecting to DB:', error);
+        process.exit(1);
+    }
 }
 
-module.exports = connectDB;
+module.exports = { connectDB, mongoose };

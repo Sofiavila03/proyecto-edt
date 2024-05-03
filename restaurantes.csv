@@ -1,0 +1,6 @@
+id,clasificacion,nombre,sitio,correoElectronico,telefono,calle,ciudad,estado,lat,lng
+1,4,Restaurante A,http://www.restaurantea.com,info@restaurantea.com,123456789,Calle A,Ciudad A,Estado A,40.7128,-74.0060
+2,3,Restaurante B,http://www.restauranteb.com,info@restauranteb.com,987654321,Calle B,Ciudad B,Estado B,34.0522,-118.2437
+3,5,Restaurante C,http://www.restaurantec.com,info@restaurantec.com,456789123,Calle C,Ciudad C,Estado C,51.5074,-0.1278
+4,2,Restaurante D,http://www.restauranted.com,info@restauranted.com,789123456,Calle D,Ciudad D,Estado D,48.8566,2.3522
+5,1,Restaurante E,http://www.restaurantee.com,info@restaurantee.com,321654987,Calle E,Ciudad E,Estado E,35.6895,139.6917
